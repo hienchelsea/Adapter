@@ -135,7 +135,7 @@ Và triển khai trong Adapter
   DiffUtil.ItemCallBack yêu cầu bạn implment 2 function areItemsTheSame và areContentsTheSame
 
     areItemTheSame
-areItemsTheSame đưa cho bạn 2 item và hỏi bạn xem chúng có đại diện cho cùng một đối tượng không. Trong trường hợp của tôi, tôi có ID duy nhất tôi sử dụng nó để so sánh. Nếu IDs phù hợp, sau đó tôi biết những items này giống nhau ngay cả khi có một số trường khác nhau.
+areItemsTheSame đưa cho bạn 2 item và hỏi bạn xem chúng có đại diện cho cùng một đối tượng không. Nếu  có ID duy nhất tôi sử dụng nó để so sánh. Nếu IDs phù hợp, sau đó biết những items này giống nhau ngay cả khi có một số trường khác nhau.
 
     areContentsTheSame
 areContenTheSame lại cho bạn 2 item. Lần này, nó hỏi bạn xem 2 item này có cùng nội dung không. Nếu bạn quyết định những item của bạn có nội dung giống nhau, sau đó nó không vẽ lại và không có animation xảy ra. Tuy nhiên, nếu bạn quyết định nội dung không giống nha thì item sẽ được vẽ lại trên màn hình
